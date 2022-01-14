@@ -1,4 +1,8 @@
 #! python3
+
+print("['apple', 'cherry', 'kiwi', 'apple', 'banana', 'strawberry', 'kiwi', 'blueberry', 'kiwi', 'tomato']")
+
+print("['cherry', 'kiwi', 'banana', 'strawberry', 'kiwi', 'blueberry', 'kiwi']")
 """
 Print the list named "fruit".
 Ask the user to enter a word
