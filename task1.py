@@ -10,13 +10,13 @@ words.sort()
 x = int(input("Enter the index for an animal:"))
 
 if x < 1:
- print("Cat")
+ print("Bear")
 if x < 2 and x > 0:
- print("Fish")
+ print("Cat")
 if x < 3 and x > 1:
  print("Dog")
 if x < 4 and x > 2:
- print("Bear")
+ print("Fish")
 if x < 5 and x > 3:
  print("Turtle")
 
