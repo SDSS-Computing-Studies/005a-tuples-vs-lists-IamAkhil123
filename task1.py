@@ -1,5 +1,14 @@
 #!python3
 
+my_str = "Cat Fish Dog Bear Turtle"
+
+words = [word.lower() for word in my_str.split()]
+
+words.sort()
+
+for word in words:
+   print(word)
+
 """
 Create a LIST that contains the following strings, in order:
 Cat
@@ -21,7 +30,3 @@ example:
 Enter the index for an animal:2
 The animal at that index is Dog
 """
-
-
-
-animals =
