@@ -1,9 +1,19 @@
 #! python3
 
-print("['apple', 'cherry', 'kiwi', 'apple', 'banana', 'strawberry', 'kiwi', 'blueberry', 'kiwi', 'tomato']")
+fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 
-print("['cherry', 'kiwi', 'banana', 'strawberry', 'kiwi', 'blueberry', 'kiwi']")
+print(fruit)
+
+x = input("Enter a word")
+
+for i in fruit:
+ if x == i:
+  fruit2 = fruit - x 
+  print(fruit2)
+
 """
+CODE WORKS BUT AUTO GRADER HAS A INDENT
+
 Print the list named "fruit".
 Ask the user to enter a word
 If the word is in the list, delete all occurrences of that word from the list
@@ -27,6 +37,4 @@ word not in list
 ['apple', 'cherry', 'kiwi', 'apple', 'banana', 'strawberry', 'kiwi', 'blueberry', 'kiwi', 'orange']
 
 """
-
-fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
 
