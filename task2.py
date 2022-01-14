@@ -1,5 +1,15 @@
 #!python3
 
+x = input("Enter a word:") 
+y = input("Enter a word:") 
+z = input("Enter a word:") 
+a = input("Enter a word:") 
+b = input("Enter a word:") 
+
+List = [x, y, z, a, b]
+
+print(List)
+
 """
 Create a variable that contains an empy list.
 Ask a user to enter 5 words.  Add the words into the list.
