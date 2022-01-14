@@ -1,13 +1,24 @@
 #!python3
 
+
 my_str = "Cat Fish Dog Bear Turtle"
 
 words = [word.lower() for word in my_str.split()]
 
 words.sort()
 
-for word in words:
-   print(word)
+x = int(input("Enter the index for an animal:"))
+
+if x < 1:
+ print("Cat")
+if x < 2 and x > 0:
+ print("Fish")
+if x < 3 and x > 1:
+ print("Dog")
+if x < 4 and x > 2:
+ print("Bear")
+if x < 5 and x > 3:
+ print("Turtle")
 
 """
 Create a LIST that contains the following strings, in order:
