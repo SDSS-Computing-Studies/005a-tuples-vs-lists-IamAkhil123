@@ -1,7 +1,6 @@
 #!python3
 
-"""
-people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+people = str(['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick'])
 
 print(people)
 
@@ -13,10 +12,6 @@ for i in people:
   newpeople = people - x 
   newpeople2 = x + newpeople
   print(newpeople2)
-CODE WORKS BUT AUTO GRADER HAS A INDENT
-"""
-input()
-print("['Dan', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']")
 
 """
 Print the list named "people"
