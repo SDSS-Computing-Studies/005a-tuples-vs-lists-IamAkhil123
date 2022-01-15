@@ -1,17 +1,14 @@
 #!python3
 
-people = str(['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick'])
+people = 'Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick'
 
 print(people)
 
 x = input("enter a word from the list")
 y = input("enter another word")
 
-for i in people:
- if x == i:
-  newpeople = people - x 
-  newpeople2 = x + newpeople
-  print(newpeople2)
+p = [y if a==x else a for a in people]
+print(p)
 
 """
 Print the list named "people"
