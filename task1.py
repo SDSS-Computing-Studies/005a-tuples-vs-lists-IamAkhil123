@@ -10,15 +10,15 @@ words.sort()
 x = int(input("Enter the index for an animal:"))
 
 if x < 1:
- print("Bear")
+ print("The animal at that index is Bear")
 if x < 2 and x > 0:
- print("Cat")
+ print("The animal at that index is Cat")
 if x < 3 and x > 1:
- print("Dog")
+ print("The animal at that index is Dog")
 if x < 4 and x > 2:
- print("Fish")
+ print("The animal at that index is Fish")
 if x < 5 and x > 3:
- print("Turtle")
+ print("The animal at that index is Turtle")
 
 """
 Create a LIST that contains the following strings, in order:
