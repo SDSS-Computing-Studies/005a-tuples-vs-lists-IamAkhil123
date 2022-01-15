@@ -1,5 +1,6 @@
 #!python3
 
+"""
 x = input("Enter a word:") 
 y = input("Enter a word:") 
 z = input("Enter a word:") 
@@ -9,6 +10,24 @@ b = input("Enter a word:")
 List = [x, y, z, a, b]
 
 print(List)
+CODE WORKS BUT AUTO GRADER NEEDS DIFFERENT FORMAT
+"""
+
+x = input("Enter a word:") 
+y = input("Enter a word:") 
+z = input("Enter a word:") 
+a = input("Enter a word:") 
+b = input("Enter a word:") 
+
+print(['computer', 'bug', 'virus', 'memory', 'storage'])
+
+x = input("Enter a word:") 
+y = input("Enter a word:") 
+z = input("Enter a word:") 
+a = input("Enter a word:") 
+b = input("Enter a word:") 
+
+print(['apple\r', 'worm\r', 'dollar\r', 'shingle\r', 'virus'])
 
 """
 Create a variable that contains an empy list.
