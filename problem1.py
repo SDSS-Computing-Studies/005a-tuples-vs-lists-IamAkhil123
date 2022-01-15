@@ -1,6 +1,6 @@
 #!python3
 
-people = 'Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick'
+people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 
 print(people)
 
