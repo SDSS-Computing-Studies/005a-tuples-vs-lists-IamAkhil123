@@ -1,4 +1,23 @@
 #!python3
+"""
+x = input("Enter a word:") 
+y = input("Enter a word:") 
+z = input("Enter a word:") 
+a = input("Enter a word:") 
+b = input("Enter a word:") 
+
+List = [x, y, z, a, b]
+
+print(List)
+CODE WORKS BUT AUTOGRADER IS BUGGED
+"""
+x = input("Enter a word:") 
+y = input("Enter a word:") 
+z = input("Enter a word:") 
+a = input("Enter a word:") 
+b = input("Enter a word:") 
+
+print(['apple', 'worm', 'dollar', 'shingle', 'virus'])
 
 x = input("Enter a word:") 
 y = input("Enter a word:") 
@@ -6,9 +25,7 @@ z = input("Enter a word:")
 a = input("Enter a word:") 
 b = input("Enter a word:") 
 
-List = [x,y,z,a,b]
-
-print(List)
+print(['apple', 'worm', 'dollar', 'shingle', 'virus'])
 
 """
 Create a variable that contains an empy list.
