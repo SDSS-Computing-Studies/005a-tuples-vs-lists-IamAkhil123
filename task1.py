@@ -1,6 +1,5 @@
 #!python3
 
-
 my_str = "Cat Fish Dog Bear Turtle"
 
 words = [word.lower() for word in my_str.split()]

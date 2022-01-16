@@ -6,7 +6,7 @@ z = input("Enter a word:")
 a = input("Enter a word:") 
 b = input("Enter a word:") 
 
-List = [x, y, z, a, b]
+List = [x,y,z,a,b]
 
 print(List)
 

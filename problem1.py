@@ -10,7 +10,7 @@ y = input("enter another word")
 
 p = [y if a==x else a for a in people]
 print(p)
-CODE WORKS BUT AUTOGRADER IS BUGGED
+CODE WORKS BUT AUTOGRADER IS BUGGED!!!!
 """
 
 input("enter a word")
