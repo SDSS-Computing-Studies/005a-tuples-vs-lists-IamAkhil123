@@ -1,4 +1,16 @@
 #! python3
+List = []
+ 
+x = int(input("Enter an integer"))
+while True:
+ x = int(input("Enter an integer"))
+ List.append(x) 
+
+ if x == -1:
+  sorted(List)
+  print("The largest number you entered is",max(List))
+  exit()
+
 """
 Ask the user to enter positive integers.
 After each entry, add the number to a list
