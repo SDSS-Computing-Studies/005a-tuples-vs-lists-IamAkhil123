@@ -7,10 +7,10 @@ print(fruit)
 x = input("enter a word")
 
 if fruit.__contains__(x):
- p = ["" if a==x else a for a in fruit]
+ p = [" " if a==x else a for a in fruit]
  print(p)
 else:
-  fruit = fruit + x
+  fruit.append(x)
   print(fruit)
 
 """
