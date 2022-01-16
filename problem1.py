@@ -2,8 +2,6 @@
 
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 
-print(people)
-
 x = input("enter a word from the list")
 y = input("enter another word")
 
