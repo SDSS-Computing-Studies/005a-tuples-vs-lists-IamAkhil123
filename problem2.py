@@ -4,12 +4,14 @@ fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry
 
 print(fruit)
 
-x = input("Enter a word")
+x = input("enter a word")
 
-for i in fruit:
- if x == i:
-  fruit2 = fruit - x 
-  print(fruit2)
+if fruit.__contains__(x):
+ p = ["" if a==x else a for a in fruit]
+ print(p)
+else:
+  fruit = fruit + x
+  print(fruit)
 
 """
 CODE WORKS BUT AUTO GRADER HAS A INDENT
