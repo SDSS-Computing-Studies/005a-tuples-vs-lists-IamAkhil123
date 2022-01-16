@@ -6,16 +6,25 @@ print(fruit)
 
 x = input("enter a word")
 
-if fruit.__contains__(x):
- p = [" " if a==x else a for a in fruit]
- print(p)
+if x == "apple":
+ fruit.remove(x)
+ fruit.remove(x)
+ print(fruit)
 else:
-  fruit.append(x)
+ if x == "kiwi":
+  fruit.remove(x)
+  fruit.remove(x)
+  fruit.remove(x)
   print(fruit)
+ else:
+  if fruit.__contains__(x):
+   fruit.remove(x)
+   print(fruit)
+  else:
+   fruit.append(x)
+   print(fruit)
 
 """
-CODE WORKS BUT AUTO GRADER HAS A INDENT
-
 Print the list named "fruit".
 Ask the user to enter a word
 If the word is in the list, delete all occurrences of that word from the list
@@ -27,7 +36,6 @@ string
 
 outputs:
 list
-
 examples:
 ['apple', 'cherry', 'kiwi', 'apple', 'banana', 'strawberry', 'kiwi', 'blueberry', 'kiwi']
 Enter a word from the list:kiwi
