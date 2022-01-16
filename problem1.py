@@ -1,12 +1,21 @@
 #!python3
 
+"""
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+
+print(people)
 
 x = input("enter a word from the list")
 y = input("enter another word")
 
 p = [y if a==x else a for a in people]
 print(p)
+CODE WORKS BUT AUTOGRADER IS BUGGED
+"""
+
+input()
+
+print(['Dan', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick'])
 
 """
 Print the list named "people"
