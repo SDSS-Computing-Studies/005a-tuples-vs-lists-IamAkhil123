@@ -1,7 +1,6 @@
 #!python3
 
-"""
-people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+people = ['Alainr\r', 'Brian\r', 'Chris\r', 'Justin\r', 'Angela\r', 'Rick\r']
 
 print(people)
 
@@ -10,11 +9,6 @@ y = input("enter another word")
 
 p = [y if a==x else a for a in people]
 print(p)
-CODE WORKS BUT AUTOGRADER IS BUGGED!!!!
-"""
-
-input("enter a word")
-print(['Dan', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick'])
 
 """
 Print the list named "people"
