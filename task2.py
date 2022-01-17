@@ -12,6 +12,7 @@ print(List)
 CODE WORKS BUT AUTO GRADER IS BUGGED
 """
 print(['apple', 'worm', 'dollar', 'shingle', 'virus'])
+print(['computer', 'bug', 'virus', 'memory', 'storage'])
 
 """
 Create a variable that contains an empy list.
